@@ -98,7 +98,7 @@ Shape.Engine = function (canvas) {
     this.height = canvas.height;
 
     this.context = canvas.getContext("2d");
-    this.context.fillStyle = 'white';
+    this.context.fillStyle = 'Pink';
     this.shapeFactory = new Shape();
     this.points = [];
     this.shapeFactory.resize();
@@ -108,7 +108,7 @@ Shape.Engine = function (canvas) {
         canvas.width = window.innerWidth;
         this.width = canvas.width;
         this.height = canvas.height;
-        this.context.fillStyle = 'white';
+        this.context.fillStyle = 'Pink';
         this.shapeFactory.resize();
     });
 };

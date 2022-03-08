@@ -13,11 +13,7 @@ html, body {
 }
 
 body {
-    background: -webkit-linear-gradient(top,#cbebdb 0,#3794c0 120%);
-    background: -moz-linear-gradient(top,#cbebdb 0,#3794c0 120%);
-    background: -o-linear-gradient(top,#cbebdb 0,#3794c0 120%);
-    background: -ms-linear-gradient(top,#cbebdb 0,#3794c0 120%);
-    background: linear-gradient(top,#cbebdb 0,#3794c0 120%);
+    background-image: url('http://img.zcool.cn/community/038682655bc318632f87528a13ef76e.jpg');
 }
 
 button {
@@ -29,18 +25,18 @@ button {
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #05eaed;
+    background-color: #ea79f0;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
 }
 
 button:hover {
-        background-color: #13c1f6
+        background-color: #f0a1dd
  }
 
     button:active {
-        background-color: #13c1f6;
+        background-color: #f0a1dd;
         box-shadow: 0 3px #666;
         transform: translateY(4px);
     }
