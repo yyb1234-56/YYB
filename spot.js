@@ -18,9 +18,7 @@
         .then(() => engine.shake())
         .then(() => engine.toText('Li Si Wei'))
         .then(() => engine.shake())
-        .then(() => engine.toText('(*╹▽╹*)'))
-        .then(() => engine.shake())
-        .then(() => engine.toText('hahahahahaha'))
+        .then(() => engine.toText('(-^_^-)'))
         .then(() => engine.shake())
         .then(() => engine.clear())
         .then(() => document.getElementById('go').addEventListener('click', start));
