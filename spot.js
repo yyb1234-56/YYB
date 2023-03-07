@@ -20,6 +20,8 @@
         .then(() => engine.shake())
         .then(() => engine.toText('(-^_^-)'))
         .then(() => engine.shake())
+        .then(() => engine.toText('hahahaha'))
+        .then(() => engine.shake())
         .then(() => engine.clear())
         .then(() => document.getElementById('go').addEventListener('click', start));
     }
