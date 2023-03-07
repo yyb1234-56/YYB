@@ -16,7 +16,7 @@
         .then(() => engine.shake())
         .then(() => engine.toText('To'))
         .then(() => engine.shake())
-        .then(() => engine.toText('YueYue'))
+        .then(() => engine.toText('Li Si Wei'))
         .then(() => engine.shake())
         .then(() => engine.toText('(-^_^-)'))
         .then(() => engine.shake())
